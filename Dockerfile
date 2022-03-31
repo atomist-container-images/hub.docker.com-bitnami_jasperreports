@@ -1,12 +1,15 @@
-# Tags: latest, 8.0.0-debian-10-r11, 8.0.0, 8-debian-10, 8
+# Tags: latest, 8.0.0-debian-10-r12, 8.0.0, 8-debian-10, 8
 FROM bitnami/jasperreports:latest
-FROM bitnami/jasperreports:8.0.0-debian-10-r11
+FROM bitnami/jasperreports:8.0.0-debian-10-r12
 FROM bitnami/jasperreports:8.0.0
 FROM bitnami/jasperreports:8-debian-10
 FROM bitnami/jasperreports:8
 
 # Tags: _
 FROM bitnami/jasperreports:_
+
+# Tags: 8.0.0-debian-10-r11
+FROM bitnami/jasperreports:8.0.0-debian-10-r11
 
 # Tags: 8.0.0-debian-10-r10
 FROM bitnami/jasperreports:8.0.0-debian-10-r10
