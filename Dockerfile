@@ -1,12 +1,24 @@
-# Tags: latest, 8.0.0-debian-10-r12, 8.0.0, 8-debian-10, 8
+# Tags: latest, 8.0.0-debian-10-r16, 8.0.0, 8-debian-10, 8
 FROM bitnami/jasperreports:latest
-FROM bitnami/jasperreports:8.0.0-debian-10-r12
+FROM bitnami/jasperreports:8.0.0-debian-10-r16
 FROM bitnami/jasperreports:8.0.0
 FROM bitnami/jasperreports:8-debian-10
 FROM bitnami/jasperreports:8
 
 # Tags: _
 FROM bitnami/jasperreports:_
+
+# Tags: 8.0.0-debian-10-r15
+FROM bitnami/jasperreports:8.0.0-debian-10-r15
+
+# Tags: 8.0.0-debian-10-r14
+FROM bitnami/jasperreports:8.0.0-debian-10-r14
+
+# Tags: 8.0.0-debian-10-r13
+FROM bitnami/jasperreports:8.0.0-debian-10-r13
+
+# Tags: 8.0.0-debian-10-r12
+FROM bitnami/jasperreports:8.0.0-debian-10-r12
 
 # Tags: 8.0.0-debian-10-r11
 FROM bitnami/jasperreports:8.0.0-debian-10-r11
@@ -82,18 +94,3 @@ FROM bitnami/jasperreports:7.8.1-debian-10-r89
 
 # Tags: 7.8.1-debian-10-r88
 FROM bitnami/jasperreports:7.8.1-debian-10-r88
-
-# Tags: 7.8.1-debian-10-r87
-FROM bitnami/jasperreports:7.8.1-debian-10-r87
-
-# Tags: 7.8.1-debian-10-r86
-FROM bitnami/jasperreports:7.8.1-debian-10-r86
-
-# Tags: 7.8.1-debian-10-r85
-FROM bitnami/jasperreports:7.8.1-debian-10-r85
-
-# Tags: 7.8.1-debian-10-r84
-FROM bitnami/jasperreports:7.8.1-debian-10-r84
-
-# Tags: 7.8.1-debian-10-r83
-FROM bitnami/jasperreports:7.8.1-debian-10-r83
